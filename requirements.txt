@@ -1,0 +1,13 @@
+aiohttp
+cfonts
+ffproto>=1.0.19
+flask
+google-play-scraper
+protobuf
+protobuf-decoder>=0.4.0
+psutil
+PyJWT
+pycryptodome
+pytz
+requests
+urllib3
