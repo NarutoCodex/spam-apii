@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message GetLoginData {
+  uint64 AccountUID = 1;
+  string Region = 3;
+  string AccountName = 4;
+  string Online_IP_Port = 14;
+  int64 Clan_ID = 20;
+  string AccountIP_Port = 32;
+  string Clan_Compiled_Data = 55;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message MajorLoginRes {
+  uint64 account_uid = 1;
+  string region = 2;
+  string token = 8;
+  string url = 10;
+  int64 timestamp = 21;
+  bytes key = 22;
+  bytes iv = 23;
+}
